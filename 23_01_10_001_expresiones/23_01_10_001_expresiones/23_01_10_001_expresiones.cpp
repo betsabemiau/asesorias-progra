@@ -3,17 +3,21 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	float a, b, c, d, e, f, resultado = 0;
+	cout << "digite el valor de a "; cin >> a;
+	cout << "digite el valor de b "; cin >> b;
+	cout << "digite el valor de c "; cin >> c;
+	cout << "digite el valor de d "; cin >> d;
+	cout << "digite el valor de e "; cin >> e;
+	cout << "digite el valor de f "; cin >> f;
+
+	resultado = (a + (b / c)) / (d + (e / f));
+
+	cout << "\n El resultado es: " << resultado << endl;
+
 }
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
-
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln
